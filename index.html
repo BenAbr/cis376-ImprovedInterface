@@ -3,14 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Calender</title>
-  
-  
-  
       <link rel="stylesheet" href="css/style.css">
-
-  
 </head>
-
 <body>
   <html>
   <head>
@@ -18,6 +12,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <div class="everything">
@@ -27,17 +22,19 @@
       <div id="lr">
     <div id="left">
       <div class="calender">
-        
+        <button id="months" onclick="changeMonth()"><h1>Month</h1></button>
+        <button id="days"><h1>Day</h1></button>
       </div>
     </div>
     <div id="right">
-      <h2>Hello Right</h2>
-    </div>
+      <h2>Current Date:</h2>
+      <div id="showMonth"><h2></h2></div>
+      <div id="showDay"><h2></h2></div>
+        </div>
       </div>
     </div>
   </body>
 </html>
-  
-  
+  <script  src="js/index.js"></script>
 </body>
 </html>
