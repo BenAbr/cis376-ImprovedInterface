@@ -1,0 +1,36 @@
+body {
+  background-image: url("http://wallpaperswide.com/download/eden_nebula-wallpaper-3840x2160.jpg");
+  background-position: top center;
+  magrin: 20px;
+  font-family: "Raleway", sans-serif;
+}
+#top {
+  display: flex;
+  justify-content: center;
+  color: #ff8c70;
+  border: solid 1px;
+  border-radius: 15px;
+  background: linear-gradient(to right, transparent, #1b3e96);
+}
+#left {
+  justify-content: left;
+  margin-right: 200px;
+  border: solid 1px #72e7ff;
+}
+#right {
+  justify-content: right;
+  margin-left: 00px;
+  border: solid 1px #72e7ff;
+}
+#left, #right {
+  padding: 10px;
+  border-radius: 20px;
+  width: 500px;
+  height: 400px;
+  display: flex;
+}
+#lr {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
