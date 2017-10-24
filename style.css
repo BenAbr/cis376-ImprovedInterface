@@ -18,19 +18,33 @@ body {
   border: solid 1px #72e7ff;
 }
 #right {
-  justify-content: right;
-  margin-left: 00px;
   border: solid 1px #72e7ff;
+  color: #ff8c70;
+  text-align: center;
 }
 #left, #right {
   padding: 10px;
   border-radius: 20px;
   width: 500px;
   height: 400px;
-  display: flex;
 }
 #lr {
   display: flex;
   justify-content: center;
   padding: 20px;
 }
+#months, #days {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+  border: solid 1px orange;
+  border-radius: 20px;
+  background: linear-gradient(to right, transparent, #1b3e96);
+  color: #ff8c70;
+}
+#months:hover, #days:hover {
+  background: linear-gradient(to top, transparent, #1b3e96);
+}
+
